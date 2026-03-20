@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0277BD"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Heading"
+        android:layout_width="307dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Socail Spark"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#040303"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lblEnter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="353dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="36dp"
+        android:textColor="#090404"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.309"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/lblKeywords"
+        android:layout_width="307dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="52dp"
+        android:text="Keywords: &quot;Morning&quot;, &quot;Mid-Mornig&quot;, &quot;Afternoon&quot;, &quot;Afternoon snack time&quot;, &quot;Dinner&quot;, &quot;After Dinner&quot; or &quot;Night&quot;"
+        android:textAlignment="textStart"
+        android:textColor="#EEFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnStart"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="55dp"
+        android:background="#6A1B9A"
+        android:text="Start"
+        app:layout_constraintBottom_toTopOf="@+id/lblKeywords"
+        app:layout_constraintEnd_toStartOf="@+id/btnClear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblEnter"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="52dp"
+        android:background="#6A1B9A"
+        android:text="Clear"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lblKeywords"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnStart"
+        app:layout_constraintTop_toBottomOf="@+id/txtTOD"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <EditText
+        android:id="@+id/txtTOD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="295dp"
+        android:ems="10"
+        android:hint="e.g. Morning"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblEnter"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblEnter"
+        android:layout_width="137dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="239dp"
+        android:text="Enter the time of day:"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/txtTOD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Heading" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="254dp"
+        android:text="Result:"
+        android:textColor="#040B09"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblEnter" />
+</androidx.constraintlayout.widget.ConstraintLayout>
