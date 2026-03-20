@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
+    // Variables
     lateinit var txtTOD: EditText
     lateinit var txtResult: TextView
     lateinit var btnStart: Button
@@ -32,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         btnClear = findViewById(R.id.btnClear)
 
         btnStart.setOnClickListener {
+            //The display for the topic for each time of day
             val tod = txtTOD.text.toString()
             if(tod == m) {
                 txtResult.text = "$m: send a 'Good Morning' message to all your friends and family."
@@ -51,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                 txtResult.text = "Please enter the valid time of day from the keywords above!!!"
             }
         }
-
+        //Clear the text fields
         btnClear.setOnClickListener {
             txtTOD.text.clear()
             txtResult.text = " "
