@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var btnStart: Button
     lateinit var btnClear: Button
 
+    //This the keywords for each time of day that the user can enter
     val m = "Morning"
     val mm = "Mid-Morning"
     val af = "Afternoon"
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
+        // The setup for the app
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         txtTOD = findViewById(R.id.txtTOD)
@@ -32,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         btnClear = findViewById(R.id.btnClear)
 
         btnStart.setOnClickListener {
-            //The display for the topic for each time of day
+            //The display for the topic for each time of day using the if statements
             val tod = txtTOD.text.toString()
             if(tod == m) {
                 txtResult.text = "$m: Send a 'Good Morning' message to all your friends and family."
