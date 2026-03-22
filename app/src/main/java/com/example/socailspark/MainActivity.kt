@@ -35,7 +35,10 @@ class MainActivity : AppCompatActivity() {
 
         btnStart.setOnClickListener {
             //The display for the topic for each time of day using the if statements
+            // This is from text color change is from Gabriele Mariotti's answer on StackOverflow:
+            // https://stackoverflow.com/questions/5679138/how-to-change-the-text-color-of-a-textview-in-android
             val tod = txtTOD.text.toString()
+            txtResult.setTextColor(getColor(R.color.black))
             if(tod == m) {
                 txtResult.text = "$m: Send a 'Good Morning' message to all your friends and family."
             } else if (tod == mm) {
@@ -51,8 +54,7 @@ class MainActivity : AppCompatActivity() {
             } else if (tod == n) {
                 txtResult.text = "$ad/$n: Leave a thoughtful comment on a friend's post or message"
             } else {
-                // This is from text color change is from Gabriele Mariotti's answer on StackOverflow:
-                // https://stackoverflow.com/questions/5679138/how-to-change-the-text-color-of-a-textview-in-android
+
                 txtResult.setTextColor(getColor(R.color.red))
                 txtResult.text = "$tod!!! Please enter the valid time of day from the keywords above!!!"
             }
