@@ -51,7 +51,10 @@ class MainActivity : AppCompatActivity() {
             } else if (tod == n) {
                 txtResult.text = "$ad/$n: Leave a thoughtful comment on a friend's post or message"
             } else {
-                txtResult.text = "Please enter the valid time of day from the keywords above!!!"
+                // This is from text color change is from Gabriele Mariotti's answer on StackOverflow:
+                // https://stackoverflow.com/questions/5679138/how-to-change-the-text-color-of-a-textview-in-android
+                txtResult.setTextColor(getColor(R.color.red))
+                txtResult.text = "$tod!!! Please enter the valid time of day from the keywords above!!!"
             }
         }
         //Clear the text fields
