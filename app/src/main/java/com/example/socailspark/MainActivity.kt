@@ -6,7 +6,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-
 class MainActivity : AppCompatActivity() {
 
     // Variables
@@ -36,9 +35,9 @@ class MainActivity : AppCompatActivity() {
             //The display for the topic for each time of day
             val tod = txtTOD.text.toString()
             if(tod == m) {
-                txtResult.text = "$m: send a 'Good Morning' message to all your friends and family."
+                txtResult.text = "$m: Send a 'Good Morning' message to all your friends and family."
             } else if (tod == mm) {
-                txtResult.text = "$mm: Reach out to a colleague  with a quick thank you."
+                txtResult.text = "$mm: Reach out to a colleague with a quick thank you."
             } else if (tod == af) {
                 txtResult.text = "$af: Share a funny meme or interesting link with a friend or family member"
             } else if (tod == asn) {
