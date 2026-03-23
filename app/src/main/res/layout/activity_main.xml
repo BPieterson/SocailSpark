@@ -45,8 +45,8 @@
 
     <TextView
         android:id="@+id/lblKeywords"
-        android:layout_width="307dp"
-        android:layout_height="44dp"
+        android:layout_width="306dp"
+        android:layout_height="73dp"
         android:layout_marginStart="52dp"
         android:layout_marginEnd="52dp"
         android:text="Keywords: &quot;Morning&quot;, &quot;Mid-Mornig&quot;, &quot;Afternoon&quot;, &quot;Afternoon snack time&quot;, &quot;Dinner&quot;, &quot;After Dinner&quot; or &quot;Night&quot;"
