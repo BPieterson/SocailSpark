@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         btnClear = findViewById(R.id.btnClear)
 
         btnStart.setOnClickListener {
+            
             //The display for the topic for each time of day using the if statements
             // This is from text color change is from Gabriele Mariotti's answer on StackOverflow:
             // https://stackoverflow.com/questions/5679138/how-to-change-the-text-color-of-a-textview-in-android
