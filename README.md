@@ -26,24 +26,24 @@ Social Spark is an application that gives the user ideas to maintain a social co
   
   <li>To begin with, the fields (use the keywords)</li>
   
-  <img src="Images/Original.png" width="300" height="300">
+  <img src="Images/Original.png" width="200" >
   
   <li>Then activate by taping on start</li>
   
-   <img src="Images/ClickS.png" width="300" height="300">
+   <img src="Images/ClickS.png" width="200">
   
   <li>If you entered the wrong or misspelt phrase/word, an error will appear.</li>
   
-   <img src="Images/Error.png" width="300" height="300">
+   <img src="Images/Error.png" width="200">
   
   <li>If entered correctly, it will display the prompt/spark</li>
   
-   <img src="Finished.png" width="300" height="300">
-  
+   <img src="Images/Finished.png" width="200">  
 </ol>
 
 ### Code Explination
 This is the declaration for the key words that will be used allowing the program to measure what it will of what shall be displayed
+
 ![The values Code](Images/Code1.png)
 
 This code is the if/else statement which uses the values of the day which allows the program to display the correct output/message. With the colour change in if the user enters the invalid phrase the output it will display an error in red. Whereas if correct 
