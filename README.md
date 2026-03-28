@@ -28,7 +28,7 @@ Social Spark is an application that gives the user ideas to maintain a social co
   <li>If you entered the wrong or misspelt phrase/word, an error will appear.</li>
   <li>If entered correctly, it will display the prompt/spark</li>
 </ol>
-### Code Explanation
+### Code Explaination
 This is the declaration for the key words that will be used allowing the program to measure what it will of what shall be displayed
 
 This code is the if/else statement which uses the values of the day which allows the program to display the correct output/message. With the colour change in if the user enters the invalid phrase the output it will display an error in red. Whereas if correct 
