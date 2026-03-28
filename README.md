@@ -1,5 +1,5 @@
 # Social Spark
-<img src=""C:\Users\poppy\AndroidStudioProjects\SocailSpark\Images\Logo.png"" alt="App logo" width="500" height="300">
+<img src=""C:\Users\poppy\AndroidStudioProjects\SocailSpark\Images_Logo.png"" alt="App logo" width="500" height="300">
 ## Table of Contents
 <ul>
   <li>Discription</li>
