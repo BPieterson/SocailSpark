@@ -5,6 +5,7 @@
   <li>Discription</li>
   <li>Features</li>
   <li>Usage Examples</li>
+  <li>Refreneces</li>
 </ul>
 
 ## Discription
@@ -31,3 +32,7 @@ Social Spark is an application that gives the user ideas to maintain a social co
 This is the declaration for the key words that will be used allowing the program to measure what it will of what shall be displayed
 
 This code is the if/else statement which uses the values of the day which allows the program to display the correct output/message. With the colour change in if the user enters the invalid phrase the output it will display an error in red. Whereas if correct 
+
+## Refreneces
+Jc, R. (n.d.-b). How to change text color programmatically in kotlin. Stack Overflow.
+https://stackoverflow.com/questions/63837502/how-to-change-text-color-programmatically-in-kotlin
