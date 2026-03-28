@@ -1,5 +1,5 @@
 # Social Spark
-![App Logo(Images/Logo.png)]
+![App Logo](Images/Logo.png)
 ## Table of Contents
 <ul>
   <li>Discription</li>
