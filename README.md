@@ -1,5 +1,5 @@
 # Social Spark
-<img src=""Images_Logo.png"" alt="App logo" width="500" height="300">
+![App Logo(Images/Logo.png)]
 ## Table of Contents
 <ul>
   <li>Discription</li>
