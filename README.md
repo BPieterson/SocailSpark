@@ -1,8 +1,8 @@
 # Social Spark
-![App Logo](Images/Logo.png)
+<img src="Images/Logo.png" width="300">
 ## Table of Contents
 <ul>
-  <li>Discription</li>
+  <li>Discription</li> 
   <li>Features</li>
   <li>Usage Examples</li>
   <li>Refreneces</li>
