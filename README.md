@@ -57,3 +57,7 @@ Social Spark is an application that provides users with ideas to maintain social
 ## Refreneces
 Jc, R. (n.d.-b). How to change text color programmatically in kotlin. Stack Overflow.
 https://stackoverflow.com/questions/63837502/how-to-change-text-color-programmatically-in-kotlin
+
+## Youtube Link
+
+https://youtu.be/VR35iQHYXt0
