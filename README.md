@@ -26,19 +26,20 @@ Social Spark is an application that gives the user ideas to maintain a social co
   
   <li>To begin with, the fields (use the keywords)</li>
   
-  ![The look of the design](Images/Original.png)
+  <img src="Images/Original.png" width="300" height="300">
   
   <li>Then activate by taping on start</li>
   
-  ![Click on the start button](Images/ClickS.png)
+   <img src="Images/ClickS.png" width="300" height="300">
   
   <li>If you entered the wrong or misspelt phrase/word, an error will appear.</li>
   
-  ![The error that will appear](Images/Error.png)
+   <img src="Images/Error.png" width="300" height="300">
   
   <li>If entered correctly, it will display the prompt/spark</li>
   
-  ![Over Look](Images/Finished.png)
+   <img src="Finished.png" width="300" height="300">
+  
 </ol>
 
 ### Code Explination
