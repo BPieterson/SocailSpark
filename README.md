@@ -55,8 +55,15 @@ Social Spark is an application that provides users with ideas to maintain social
 </ol>
 
 ## Refreneces
-Jc, R. (n.d.-b). How to change text color programmatically in kotlin. Stack Overflow.
+<ul>
+  <li>Jc, R. (n.d.-b). How to change text color programmatically in kotlin. Stack Overflow.
 https://stackoverflow.com/questions/63837502/how-to-change-text-color-programmatically-in-kotlin
+</li>
+<li>Ogada, C. (2023, February 24). How do I add background color in Android? Stack Overflow. https://stackoverflow.com/questions/75556313/how-do-i-add-background-color-in-android</li>  
+<li>Kendrick. (2015, August 16). Android Studio if else conditions. Stack Overflow. https://stackoverflow.com/questions/32035922/android-studio-if-else-conditions</li>
+<li>Mp, M. (2013, December 22). How to add images to README.md on GitHub? Stack Overflow. https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github</li>
+<li>MrCloister. (2011, April 28). How to display the value of a variable on the screen? Stack Overflow. https://stackoverflow.com/questions/5821051/how-to-display-the-value-of-a-variable-on-the-screen</li>
+</ul>
 
 ## Youtube Link
 
